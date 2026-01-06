@@ -13,9 +13,9 @@ public class User extends BaseEntity {
 	
 	@Id
 	@GeneratedValue
-	private Long id;
+	private Long  id;
 
-	@Column(nullable = false)
+	@Column( nullable = false )
 	private String username;
 	
 	@Column
